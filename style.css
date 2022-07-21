@@ -67,6 +67,7 @@ body{
   background: white;
   cursor: pointer;
   color: red;
+  margin: 25px;
 }
 
 .all-players{
@@ -96,4 +97,53 @@ body{
   background-color: red;
   border-radius: 4px;
   margin-left: 10px;
+}
+
+.icon{
+  margin: 5px;
+  font-size: 12px;
+  
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer-menu a{
+  display: inline;
+ margin: 15px 26px;
+ font-size: 1rem;
+ color: azure;
+ text-decoration: none;
+}
+
+.footer::after{
+  display: table;
+   content: '';
+  clear: both;
+}
+
+..footer-menu a:hover{
+  color: coral;
+}
+
+.footer-card{
+  width: 150px;
+  height: 170px;
+  text-align: center;
+  font-size: 60px;
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.footer-desc{
+  display: inline;
+  size: 20px;
+  width: 130px;
+  height: 120px;
 }
